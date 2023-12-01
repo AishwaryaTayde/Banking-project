@@ -183,7 +183,7 @@ public class Main_using_Arraylist {
 						while (true) {
 							System.out.println("Account number:" + Ac.getAccNum());
 
-							if (Ac.getAccNum() == 1234) {
+							
 								System.out.println("Enter amount:");
 								int c = sc.nextInt();
 								if (c > 0) {
@@ -193,12 +193,12 @@ public class Main_using_Arraylist {
 									break;
 								}
 							}
-						}
+						
 					} else if (A == 2) {
 						while (true) {
 							System.out.println("Account number:" + Ac2.getAccNum());
 
-							if (Ac2.getAccNum() == 6789) {
+							
 								System.out.println("Enter amount:");
 								int c = sc.nextInt();
 								if (c > 0) {
@@ -209,7 +209,7 @@ public class Main_using_Arraylist {
 								}
 							}
 						}
-					}
+					
 
 					else if (A == 0) {
 						break;
@@ -231,7 +231,7 @@ public class Main_using_Arraylist {
 					if (A == 1) {
 						System.out.println("Account number:" + Ac.getAccNum());
 
-						if (Ac.getAccNum() == 1234) {
+						
 							while (true) {
 								System.out.println("Enter amount:");
 								double c = sc.nextDouble();
@@ -252,12 +252,12 @@ public class Main_using_Arraylist {
 								}
 							}
 						}
-					}
+					
 
 					else if (A == 2) {
 						System.out.println("Account number:" + Ac2.getAccNum());
 
-						if (Ac2.getAccNum() == 6789) {
+						
 							while (true) {
 								System.out.println("Enter amount:");
 								double c = sc.nextDouble();
@@ -278,7 +278,7 @@ public class Main_using_Arraylist {
 								}
 							}
 						}
-					}
+					
 
 					else if (A == 0) {
 						break;
